@@ -3,32 +3,44 @@
 }
 #imagen_logo{
   height: 100px;
-  width: 100px;
+  width: 150px;
 }
+
+.navbar-header{
+  margin-left: -10%;
+}
+.nav_header{
+
+  margin-right: -11%;
+}
+
 .formulario{
   padding-top: 2%;
 }
 .nombre{
-  padding-top: 14%;
-  font-size: 1.5rem;
+  padding-top: 20%;
+  font-size: 2.0rem;
+}
+.span{
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: bold;
+  color: blue;
 }
   header{
   width: 100%;
-  height: 15vh;
 }
 #seccion1,#seccion2,#seccion3{
   background-color: #D3D3D3;
   border: black 1px solid;
 }
-nav{
-  width: 100%;
-  height: 100%;
-}
 #invitacion{
+  margin-top: -4%;
   width: 200px;
   height: 200px;
 }
 .titulos{
+  margin-bottom: 2%;
   text-align: center;
 }
 .titulo3{
@@ -39,15 +51,13 @@ nav{
   text-align: center;
 }
 figure{
-  margin-left: -8%;
+margin: 1%;
 }
-.quienes-somos{
-  display: inline-block;
-  padding-left: 5%;
+.quienes_somos{
+
+padding-left: 13%;
 }
-#seccion1{
-  padding-top: 3%;
-}
+
 .media{
 padding-top: 5%;
 padding-bottom: 2%;
@@ -72,13 +82,11 @@ max-width: 960px;
 #seccion-cursos{
   margin-top: 2%;
   width: 100%;
-  padding-left: 1%;
 }
 .texto{
   text-align: center;
   font-style: oblique;
   font-weight: bold;
-  padding-right: 25%;
 }
 #form-2{
 padding-right: 4%;
@@ -89,21 +97,23 @@ height: 300px;
 }
 #patrocinadores{
   padding-left: 2%;
-display: inline-block;
 }
 .rounded-circle{
   height: 50px;
   width: 50px;
   margin:1%;
 }
-h2{
-  padding-top:3%;
+h5{
+  font-weight: bold;
 }
-h1,h4{
-     padding-bottom: 5%;
+
+h4{
+    padding-bottom: 5%;
    padding-top: 5%;
+   font-style: italic;
   }
   p{
+    font-weight: bold;
     font-style: italic;
   }
 footer{
@@ -111,7 +121,6 @@ footer{
 }
 
 ul,li{
-  display: inline-block;
   list-style: none;
   text-align: center;
 }
@@ -124,28 +133,32 @@ ul,li{
 
 
 @media (max-width: 576px) {
-nav{
-height: 100%;
-margin-left: -20%;
-}
-.navegador{
+.formulario_nav{
   display: none;
 }
-.nav_nav{
-  display:none;
+.navbar-header{
+ padding-top: 1%;
+  margin-right: 30%;
 }
-.inscripciones{
-display: none;
+.formulario_inscripciones{
+  padding-top: 8%;
 }
 #imagen_logo{
-  width: 65px;
-  height: 65px;
+display: none;
+}
+span{
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: bold;
 }
 .quienes_somos{
   display: none;
 }
-.align-self-start{
-  display: none;
+.patrocinadores{
+  margin-left: 23%;
+}
+#invitacion{
+  margin-top:  10%;
 }
 article{
   width: auto;
@@ -169,7 +182,7 @@ article{
   height: 60px;
 }
 .Cursos{
-margin-left: 30%;
+margin-right: 40%;
 
 }
 #id{
