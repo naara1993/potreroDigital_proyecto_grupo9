@@ -1,0 +1,33 @@
+.container_principal{
+  margin: 35%;
+  max-width: 400px;
+ margin-top: 15%;
+}
+.login_from{
+border: black 2px solid;
+padding-left: 5%;
+   box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+.login_from_title{
+padding-right: 15%;
+	text-align: center;
+margin: 1%;
+font-style: italic;
+}
+.login_from_email{
+	padding-left: 18%;
+	margin: 3%;
+}
+.login_from_password{
+padding-left: 20%;
+margin: 3%
+}
+.login_from_confi_password{
+padding-left: 20%;
+margin:3%;
+}
+.login_from_button{
+text-align: center;
+margin: 5%;
+margin-left: -5%;
+}
