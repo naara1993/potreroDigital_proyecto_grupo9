@@ -8,41 +8,50 @@
     <title></title>
   </head>
   <body>
-<div class="container container_principal">
-  <div class="row">
-    <div class=" login_from col-md-12 col-12 container-row">
         <head>
           <meta charset="utf-8">
           <title></title>
         </head>
         <body>
-        <div class="row">
+          <header>    </header>
+<main>
+  <section class="section">
+    <div class="container container_principal ">
+        <div class=" login_from ">
+        <div class="row ">
           <div class=" login_from_title col-12 col-md-12">
-            <h2 class="fs-title"> Crea una cuenta</h2>
-            <p>ingresa tus datos</p>
+            <h1 class="fs-title">Edu-<span>web</span></h1>
+            <h2 class="fs-title">  <span>Crea una cuenta</span> </h2>
           </div>
         </div>
-        <form class="" action="index.html" method="post">
+        <form class="" action="destino.php" method="post">
+          <div class="row">
         <div class=" login_from_email row col-12 col-md-12">
-          <input type="text" name="email" placeholder="Email" />
+          <input name="email" type="text" placeholder="Email" required/>
         </div>
+      </div>
         <div class="row">
           <div class=" login_from_password col-12 col-md-12">
-                      <input type="password" name="pass" placeholder="Password" />
+                       <input name="password" type="password" placeholder="Contraseña" required/>
           </div>
         </div>
         <div class="row">
           <div class=" login_from_confi_password col-12 col-md-12">
-              <input type="password" name="cpass" placeholder="Confirm Password" />
+            		      <input name="password" type="password" placeholder=" Confirmar Contraseña" required/>
           </div>
         </div>
         <div class="row">
           <div class=" login_from_button col-12 col-md-12">
-              <input type="button" name="next" class="next action-button" value="Next" />
+               <button class="btn btn-info">Ingresar</button>
           </div>
         </div>
       </form>
       </div>
       </div>
+    </main>
+  </section>
+    </div>
+  </div>
+    <footer></footer>
   </body>
 </html>
