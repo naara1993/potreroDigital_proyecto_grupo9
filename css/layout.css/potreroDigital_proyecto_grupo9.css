@@ -55,7 +55,7 @@ margin: 1%;
 }
 .quienes_somos{
 
-padding-left: 13%;
+padding-left: 15%;
 }
 
 .media{
@@ -155,13 +155,18 @@ span{
   font-weight: bold;
 }
 .quienes_somos{
-  display: none;
+display: none;
+
 }
+
 .patrocinadores{
   margin-left: 23%;
 }
 #invitacion{
-  display: none;
+  height: 100px;
+  width: 100px;
+margin: auto;
+padding: auto;
 }
 .seccion2{
   margin-top: -2%;
