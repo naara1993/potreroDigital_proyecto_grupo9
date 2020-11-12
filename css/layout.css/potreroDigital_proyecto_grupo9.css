@@ -145,6 +145,7 @@ ul,li{
 .formulario_inscripciones{
   padding-top: 8%;
 }
+
 #imagen_logo{
 display: none;
 }
@@ -160,7 +161,10 @@ span{
   margin-left: 23%;
 }
 #invitacion{
-  margin-top:  10%;
+  display: none;
+}
+.seccion2{
+  margin-top: -2%;
 }
 article{
   width: auto;
